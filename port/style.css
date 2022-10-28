@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.landing {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+}
+header {
+  background-image: url("bg.jpg");
+}
+
+.info {
+  z-index: 3;
+  width: 60%;
+  position: absolute;
+  right: 0px;
+  top: 45%;
+  background-color: transparent;
+  color: white;
+}
+#face {
+  width: 40%;
+}
+.face {
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+}
+
+button {
+  border: none;
+  margin: 10px 10px;
+  border-radius: 20px;
+  background-color: darkolivegreen;
+  padding: 0px 10px 1px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#nav {
+  border-radius: 20px;
+  z-index: 2;
+  position: fixed;
+  right: 0;
+}
+#about,
+#services,
+#projects {
+  background-color: rgba(21, 73, 21, 0.534);
+  height: 100vh;
+}
+.about {
+  position: relative;
+  text-align: center;
+  width: 80vw;
+  left: 10%;
+  margin-top: 50px;
+}
+.webdev {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  width: 40vw;
+  left: 30%;
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 1px solid;
+  height: 40vh;
+}
+.webdev > p {
+  padding:20% 0 0 0;
+  white-space: nowrap;
+}
+
+.project {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  margin-top: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+  position: relative;
+  width: 40vw;
+  height: 10vh;
+}
+.project > p {
+  padding: 10px;
+  text-align: center;
+}
+
+a:link {
+  color: aliceblue;
+  text-decoration: none ;
+}
+a:visited {
+  color: white;
+}
+a:hover{
+  color:darkolivegreen;
+}
