@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Register Now</title>
+  </he<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Register Now</title>
+  </head>
+  <body>
+     <p style="color:white;">Apologies for submitting the wrong link, i got to know late. please view my code<a href="https://replit.com/@EnduranceAnine/zuriregisterationtask?v=1">here</a>
+    <h3>Register Here</h3>
+    <form action="loggedin.html">
+      <input
+        class="input"
+        type="text"
+        name="fname"
+        id="fname"
+        placeholder="First Name"
+        required
+      />
+      <br />
+      <input
+        class="input"
+        type="text"
+        name="lname"
+        id="lname"
+        placeholder="Last Name"
+        required
+      />
+      <br />
+      <input
+        class="input"
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Phone Number"
+        required
+      />
+      <br />
+      <input
+        class="input"
+        type="email"
+        name="mail"
+        id="mail"
+        placeholder="Email address"
+        required
+      />
+      <input
+        class="input"
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Choose your password"
+        pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,20}$/g"
+        required
+      />
+      <br />
+      <select name="gender" id="gender" required>
+        <option value="text">--Select Gender--</option>
+        <option value="text">Male</option>
+        <option value="text">Female</option>
+      </select>
+      <br />
+      <label for="date" id="labeldate">Date of Birth</label>
+      <input class="input" type="date" name="date" id="date" required /> <br />
+      <label for="color" id="labelcolor">Choose your Favourite color</label>
+      <input class="input" type="color" name="color" id="color" /> <br />
+      <input type="submit" value="submit" id="btn" />
+    </form>
+
+    <p>Already have an account? <a href="login.html">Sign-in</a></p>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Login</title>
+</head>
+
+<body style="height: 50vh; margin-top: 17vh">
+  <h3>LOGIN</h3>
+  <form action="success.html">
+    <input class="input" type="email" name="mail" id="mail" placeholder="Email address" required />
+    <input class="input" type="password" name="password" id="password" placeholder="Password"
+      pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,20}$/g" required />
+    <input type="submit" value="login" id="btn" />
+  </form>
+  <p>Don't have an account? <a href="index.html">Sign-up</a></p>
+</body>
+
+</html>
